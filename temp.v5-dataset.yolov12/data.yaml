@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['critical risk', 'high risk', 'low risk', 'medium risk', 'rescue individual']
+
+roboflow:
+  workspace: resqtech
+  project: temp-negz4
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/resqtech/temp-negz4/dataset/5

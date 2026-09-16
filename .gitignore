@@ -1,0 +1,21 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dataset Images & Labels (Roboflow dataset)
+temp.v5-dataset.yolov12/train/
+temp.v5-dataset.yolov12/valid/
+temp.v5-dataset.yolov12/test/
