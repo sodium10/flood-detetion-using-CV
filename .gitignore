@@ -1,8 +1,10 @@
 # Operating System Files
 .DS_Store
 Thumbs.db
+*.DS_Store
+.cph/
 
-# Python
+# Python & Virtual Environments
 __pycache__/
 *.py[cod]
 *$py.class
@@ -14,6 +16,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+**/yolov8_env/
+*env/
+
+# Large Media Files (exceeding GitHub's 100MB limit)
+*.mp4
 
 # Dataset Images & Labels (Roboflow dataset)
 temp.v5-dataset.yolov12/train/

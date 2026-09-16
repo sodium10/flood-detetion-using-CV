@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Car-RiskLevel0', 'Car-RiskLevel1', 'Car-RiskLevel2', 'Car-RiskLevel3', 'Person-RiskLevel0', 'Person-RiskLevel1', 'Person-RiskLevel2', 'Person-RiskLevel3']
+
+roboflow:
+  workspace: vitemamba
+  project: flood-1-vovc4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vitemamba/flood-1-vovc4/dataset/1

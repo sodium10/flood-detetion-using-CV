@@ -1,0 +1,9 @@
+path: dataset
+
+train: train/images
+val: valid/images
+# test: test/images   # থাকলে রাখো, না থাকলে comment
+
+nc: 1
+names:
+  - human

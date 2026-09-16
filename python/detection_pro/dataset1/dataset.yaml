@@ -1,0 +1,6 @@
+path: dataset1
+train: images/train
+val: images/val
+names:
+  0: normal
+  1: trapped
